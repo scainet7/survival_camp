@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#cd
-#cd T01D01
-#cd src
+cd
+cd T01D01
+cd src
 cd ai_help
 sh keygen.sh
 cd key
