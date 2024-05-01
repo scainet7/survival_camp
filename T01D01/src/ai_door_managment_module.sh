@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 count=0
 
@@ -87,7 +87,7 @@ fi
 
 echo
 if [ $count -eq 34 ]; then
-  sh ./ai_door_control.sh
+  ./ai_door_control.sh &
 else
   echo "Ошибка загрузки данных... Протокол ИИ прерван."
 fi
