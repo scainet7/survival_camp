@@ -7,9 +7,8 @@ int main() {
     double res = fun();
   
     // CHANGE THIS IF - AI
-    if (res == 0)
-       printf("OK!");
- 
+    if (res < 1E-6)
+       printf("OK!\n");
     return 0;
 }
  
